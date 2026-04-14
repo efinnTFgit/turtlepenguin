@@ -1,0 +1,5 @@
+name: apple
+jobs:
+  build:
+    steps:
+      - uses: efinnTFgit/horserabbit@v1
