@@ -3,4 +3,4 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: efinnTFgit/horserabbit@v1
+      - uses: actions/checkout@v4
